@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- tailwind -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+    <!-- Icon -->
+    <link rel="icon" href="logo.png">
+
+    <title>DopeSIRv2</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="home" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                <span class="brandName">DopeSIRv2 </span>
+            </a>
+            <button class="navbar-toggler my-1" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Catagories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#logo">Logo</a></li>
+                            <li><a class="dropdown-item" href="#mascot">Mascot</a></li>
+                            <li><a class="dropdown-item" href="#thumbnail">Thumbnail</a></li>
+                            <li><a class="dropdown-item" href="#microworld">Microworld</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Home page -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"
+        style="background-color: white;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <section class="text-gray-600 body-font overflow-hidden">
+                    <div class="container px-5 py-24 mx-auto">
+                        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                            <img alt="ecommerce"
+                                class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+                                src="img1.png">
+                            <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                                <h2 class="text-sm title-font text-gray-500 tracking-widest">DopeSIRv2</h2>
+                                <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">Welcome to my page!</h1>
+                                <div class="flex mb-4">
+
+                                    <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+                                        <a href="https://www.instagram.com/dope_illustrations10/"
+                                            class="ml-3 text-gray-500">
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                                viewBox="0 0 24 24">
+                                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                        <a href="https://www.youtube.com/channel/UCjV1jalomE48wl571Mn_lGQ"
+                                            class="ml-3 text-gray-500">
+                                            <img src="youtube-logo.png" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                                viewBox="0 0 24 24">
+                                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                            </img>
+                                        </a>
+                                        <a class="text-gray-500">
+                                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </span>
+                                </div>
+                                <p class="leading-relaxed">A page for those, egar to have quality and low cost graphic
+                                    design services. Here's all the best content I have ever made and do contact me to
+                                    get one for you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <section class="text-gray-600 body-font">
+                    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                        <div
+                            class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Needed a logo,
+                                mascot
+                                <br class="hidden lg:inline-block">or thumbnail?
+                            </h1>
+                            <p class="mb-8 leading-relaxed">If yes, this page is for you! Totolly low cost and
+                                effective.</p>
+                        </div>
+                        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                            <img class="object-cover object-center rounded" alt="hero" src="img2.jpg">
+                        </div>
+                    </div>
+                </section>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="text-gray-600 body-font">
+                    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                            <img class="object-cover object-center rounded" alt="hero" src="banner.png">
+                        </div>
+                        <div
+                            class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Recent
+                                upload-Banner
+                            </h1>
+                            <p class="mb-8 leading-relaxed">This is the most recent upload that I have made.</p>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr>
+
+    <!-- About me section  -->
+    <section id="about" class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
+            style="padding-bottom: 3rem;">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About me</h1>
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="logo" src="logo.png"
+                style="border-radius: 50%;">
+            <div class="text-center lg:w-2/3 w-full">
+                <p class="mb-8 leading-relaxed sm:text-1xl text-1xl mb-4 font-medium text-gray-900">Aye wassup everyone! This is Sambriddh DOPE Bista, an aspiring young
+                    digital creator, all the way from Nepal. You can find all sort of graphic designs here.</p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">Also check me on
+                    <a href="https://www.instagram.com/dope_illustrations10/" class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCjV1jalomE48wl571Mn_lGQ" class="ml-3 text-gray-500">
+                        <img src="youtube-logo.png" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        </img>
+                    </a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Logo -->
+    <div class="row">
+        <section id="logo" class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto col-lg-4">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Logos</h1>
+                <div class="flex flex-wrap -m-4">
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="logo1.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4  p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="logo2.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4  p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="logo3.jpg">
+                        </a>
+
+                    </div>
+                </div>
+        </section>
+    </div>
+    <hr>
+
+    <!-- Mascot -->
+    <div class="row">
+        <section id="mascot" class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Mascot</h1>
+                <div class="flex flex-wrap -m-4">
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot1.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot2.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot3.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot4.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot5.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot6.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot7.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot8.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot9.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot10.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot11.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot12.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot13.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot14.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="mascot15.png">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <hr>
+    <!-- Thumbnail -->
+    <div class="row">
+        <section id="thumbnail" class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Thumbnail</h1>
+                <div class="flex flex-wrap -m-4">
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="thumb1.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="thumb2.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-4">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="thumb3.jpg">
+                        </a>
+                    </div>
+        </section>
+        <hr>
+        <!-- Microworld -->
+        <section id="microworld" class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Microworld</h1>
+                <div class="col-lg-4 col-sm-6 p-4">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="microworld.jpg">
+                    </a>
+                </div>
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact">
+            <button type="button" class="btn btn-lg btn-outline-primary"
+                style="position: relative; left: 43%; margin-bottom: 10%;"><a
+                    href="https://www.instagram.com/dope_illustrations10/">Contact me</a></button>
+
+        </section>
+
+        <!-- footer  -->
+        <footer class="text-gray-600 body-font">
+            <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <img src="logo.png" class="w-10 h-10 text-white p-2 rounded-full" viewBox="0 0 24 24">
+                    </img>
+                    <span class="ml-3 text-xl">DopeSIRv2</span>
+                </a>
+                <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                    2021 Created by —
+                    <a href="https://www.instagram.com/nishant.bhattrai/" class="text-gray-600 ml-1"
+                        rel="noopener noreferrer" target="_blank">@nishant.bhattrai</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">Don't forget to check
+                    <a href="https://www.instagram.com/dope_illustrations10/" class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCjV1jalomE48wl571Mn_lGQ" class="ml-3 text-gray-500">
+                        <img src="youtube-logo.png" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        </img>
+                    </a>
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                            </path>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCw6pJF_XvOrCrFSSorpgnd3eUz0lEyAq8",
+    authDomain: "dopesirv2-7e3ee.firebaseapp.com",
+    projectId: "dopesirv2-7e3ee",
+    storageBucket: "dopesirv2-7e3ee.appspot.com",
+    messagingSenderId: "538801618954",
+    appId: "1:538801618954:web:e026a063242a257f249ff3",
+    measurementId: "G-EV8BZ8D57G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+
+</html>
